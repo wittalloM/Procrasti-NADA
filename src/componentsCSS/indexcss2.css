@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    display: flex;
+}
+
+
+h1 {
+    font-size: 40px;
+    filter: brightness(0.8);
+    color: #1B4242;
+}
+
+
+button {
+    padding: 10px 15px;
+    background-color: #353535;
+    border: none;
+    border-radius: 8px;
+    color: inherit;
+    transition: 0.4ms;
+    cursor: pointer;
+}
+
+
+
+

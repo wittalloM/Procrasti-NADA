@@ -1,0 +1,34 @@
+
+.lstarefas {
+    margin: 10px 0px;
+    border-bottom: 2px solid #1B4242;
+    padding: 10px;
+    background-color: #303030;
+    border-radius: 12px;
+}
+
+
+.categoria {
+    color: steelblue
+}
+
+.lscontrols {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btt-complete {
+    background-color: #09b64b;
+
+}
+.btt-complete:hover {
+    filter: brightness(0.8);
+}
+
+
+.btt-exclTarefa {
+    background-color: #d32e18;
+}
+btt-complete:hover {
+    filter: brightness(0.8);
+}

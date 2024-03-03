@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('./assets/minimalB&W1.jpg');
+  background-size: cover;
+}
+
+.app {
+  width: 400px;
+  margin: 10px 0px;
+  margin-left: 40px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+  border-radius: 10px;
+}
+
+.lstarefas-box {
+  margin-bottom: 30px;
+  border-bottom: 2px solid #1B4242;
+  padding-bottom: 20px;
+}
+

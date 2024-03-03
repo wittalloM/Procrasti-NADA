@@ -1,0 +1,38 @@
+.novaTarefa {
+    background-color: #202020;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+    padding: 10px;
+}
+
+input {
+    margin: 10px 0px;
+    padding: 5px;
+    background-color: #202020;
+    border-radius: 5px;
+    color: aliceblue;
+
+}
+
+select {
+    padding: 5px;
+    background-color: #202020;
+    color: #1B4242;
+    border-radius: 5px;
+}
+
+
+.btt-form {
+    margin: 20px 0px;
+    border: none;
+}
+
+.btt-form:hover {
+    background-color: #1B4242;
+    transition: 0.4ms;
+
+}
