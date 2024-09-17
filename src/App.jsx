@@ -3,6 +3,8 @@ import { useState } from 'react'
 import Todo from './componentes/Todo';
 import './App.css'
 import TodoForm from './componentes/TodoForm';
+import Search from './componentes/Search';
+import Footer from './componentes/Footer';
 
 function App() {
   const [todos, setTodos] = useState([
@@ -60,16 +62,21 @@ function App() {
     setTodos(newTodo);
   }
 
+  const [search, setSearch] = useState("");
+
   return (
     <section className='app'>
       <h1>Tarefas</h1>
+      <Search search={search} setSearch={setSearch} />
       <container className='lstarefas-box'>
         {
-          todos.map((todo) => (
-            <Todo key={todo.id} todo={todo} removTarefa={removTarefa} estaCompleta={estaCompleta} />
-          ))}
+          todos.filter((todo) => todo.enunTarefa.toLowerCase().includes(search.toLowerCase()))
+            .map((todo) => (
+              <Todo key={todo.id} todo={todo} removTarefa={removTarefa} estaCompleta={estaCompleta} />
+            ))}
       </container>
       <TodoForm addTodo={addTodo} />
+      <Footer />
     </section>
   );
 }

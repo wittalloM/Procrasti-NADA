@@ -3,6 +3,7 @@ body {
     padding: 0;
     color: aliceblue;
     display: flex;
+    justify-content: center;
 }
 
 

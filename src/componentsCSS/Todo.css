@@ -22,13 +22,13 @@
 
 }
 .btt-complete:hover {
-    filter: brightness(0.8);
+    filter: brightness(0.6);
 }
 
 
 .btt-exclTarefa {
     background-color: #d32e18;
 }
-btt-complete:hover {
-    filter: brightness(0.8);
+.btt-exclTarefa:hover {
+    filter: brightness(0.6);
 }

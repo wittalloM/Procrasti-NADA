@@ -1,0 +1,29 @@
+.footer-box {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: solid 2px #6ab8b8;
+}
+
+.footer-text {
+    margin: 40px;
+    color: #6ab8b8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 8px;
+}
+
+.footer-text strong {
+    color: red;
+    font-size: 10px;
+}
+
+
+.imgDev-box img {
+    margin-left: 90px;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+}
